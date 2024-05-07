@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Program13 {
+public class InputStatements {
+    // If Program Did Not Run Please Check Your File Name And Class Name Are Same
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.println("enter the text of line  ");
