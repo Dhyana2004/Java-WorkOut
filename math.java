@@ -19,5 +19,9 @@ public class math {
         System.out.println(result);
         double result1=Math.floor(pi);
         System.out.println(result1);
+
+        double num=3.5,num2=3.6;
+        System.out.println(Math.round(num));
+        System.out.println(Math.round(num2));
     }
 }
