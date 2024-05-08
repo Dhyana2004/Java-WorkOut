@@ -20,8 +20,9 @@ public class math {
         double result1=Math.floor(pi);
         System.out.println(result1);
 
-        double num=3.5,num2=3.6;
+        double num=3.5,num2=3.6,num3=3.4;
         System.out.println(Math.round(num));
         System.out.println(Math.round(num2));
+        System.out.println(Math.round(num3));
     }
 }
