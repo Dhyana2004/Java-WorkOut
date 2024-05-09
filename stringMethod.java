@@ -22,6 +22,27 @@ public class stringMethod {
         System.out.println(result6);
         String result7=result6.trim();
         System.out.println(result7);
+
+        // -  ->false
+        // +  ->true
+        // 0  ->equal
+        String str1="dhyana";
+        String str2="samaga";
+        System.out.println(str1.compareTo(str2));
+        String str3="dhyana";
+        System.out.println(str1.compareTo(str3));
+        String str4="to the down hill of the house";
+        System.out.println(str4.compareTo(str1));
+
+         int n=str1.indexOf("a");
+        System.out.println(n);
+        int n1=str1.lastIndexOf("a");
+        System.out.println(n1);
+
+        String str5=str1.substring(3);
+        System.out.println(str5);
+        String str6=str1.substring(0,6);
+        System.out.println(str6);
         
 
         
